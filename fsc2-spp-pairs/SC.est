@@ -1,0 +1,16 @@
+// Priors and rules file
+// *********************
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max
+//all Ns are in number of haploid individuals
+1	Nbes	unif	1e3	 2e6	output
+1	Neth	unif	1e3	 2e6	output
+0	MF01	logunif	1e-9	0.1	output
+0	MF10    logunif 1e-9    0.1 output
+1	T2	unif	3600000 15200000	output bounded
+1	TIN	unif	1e6	1.2e7	output
+
+[RULES]
+
+[COMPLEX PARAMETERS]
+1 T1 = T2 - TIN output
