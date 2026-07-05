@@ -6,3 +6,5 @@ Raw read data sequenced for this study is available under the ncbi bioproject XX
 2. Folder fsc2-spp-pairs contains scripts and input files used for fastsimcoal2 analyses done with sppecies pairs.
 3. Folder fsc2-4spp contains scripts and input files used for fastsimcoal2 analyses done for the full datset (4 species)
 4. Folder Introgression_R contains R scripts used to process the output files of ABBABABAwindows.py and Twisst2.
+
+Scripts are based on software manuals, Joana Meier and Mark Ravinet [course](https://speciationgenomics.github.io), and Thibaut Capblanq [github](https://github.com/Capblancq/Speciation-Coenonympha-butterflies/tree/master)
