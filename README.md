@@ -1,4 +1,4 @@
-# Evolutionary history and widespread genomic introgression in the Atlantic Forest endemic Heliconius besckei
+## Evolutionary history and widespread genomic introgression in the Atlantic Forest endemic Heliconius besckei
 This repository contains scripts used in the study Repulles et al. 202X, XXX, DOI XXX
 Raw read data sequenced for this study is available under the ncbi bioproject XXX. Additional data was download from BioProjects PRJNA308754, PRJNA833307 and PRJEB8011.
 
