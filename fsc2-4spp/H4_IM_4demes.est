@@ -1,0 +1,23 @@
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max
+//all Ns are in number of haploid individuals
+1	Nnum	unif	50e3	200e3	output
+1	Nbes	unif	50e3	200e3	output
+1	Neth	unif	100e3	350e3	output
+1	Nmel	unif	50e3	200e3	output
+1	NAmeleth	unif	100e3	800e3	output
+1	NAbesnum	unif	50e3	800e3	output
+1	Nlca	unif	100e3	1000000	output
+1	TdivALL	unif	15e6	20e6	output
+1	TIN1	unif	500e3	6e6	output
+1	TIN2	unif	500e3	6e6	output
+0	MF01	logunif	1e-8	0.2	output
+0	MF10	logunif	1e-8	0.2	output
+0	MF23	logunif	1e-9	0.2	output
+0	MF32	logunif	1e-6	0.2	output
+0	MF13	logunif	1e-8	0.2	output
+0	MF31	logunif	1e-8	0.2	output
+
+[COMPLEX PARAMETERS]
+1 TdivBN = TdivALL - TIN2	output
+1 TdivEM = TdivBN - TIN1	output
