@@ -1,0 +1,30 @@
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max
+//all Ns are in number of haploid individuals
+1	Nnum	unif	50e3	200e3	output
+1	Nbes	unif	50e3	200e3	output
+1	Neth	unif	100e3	350e3	output
+1	Nmel	unif	50e3	200e3	output
+1	NAmeleth	unif	100e3	800e3	output
+1	NAbesnum	unif	50e3	800e3	output
+1	Nlca	unif	100e3	1000000	output
+1	TdivALL	unif	12e6	19.2e6	output	bounded
+0	relBN	    unif	0.001	0.999	hide	bounded
+0	relEM	    unif	0.001	0.999	hide	bounded
+0	MF01	logunif	1e-8	0.2	output
+0	MF10	logunif	1e-8	0.2	output
+0	MF23	logunif	1e-9	0.2	output
+0	MF32	logunif	1e-9	0.2	output
+0	MF12	logunif	1e-8	0.2	output
+0	MF21	logunif	1e-8	0.2	output
+0	MF13	logunif	1e-8	0.2	output
+0	MF31	logunif	1e-8	0.2	output
+
+[COMPLEX PARAMETERS]
+1	rangeBN = TdivALL - 8e6	hide
+1	addBN = rangeBN * relBN	hide
+1	TdivBN = 8e6 + addBN	output
+
+1	rangeEM = TdivBN - 6e6	hide
+1	addEM = rangeEM * relEM	hide
+1	TdivEM = 6e6 + addEM	output
