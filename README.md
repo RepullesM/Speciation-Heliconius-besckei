@@ -1,6 +1,6 @@
 ## Evolutionary history and widespread genomic introgression in the Atlantic Forest endemic Heliconius besckei
 This repository contains scripts used in the study Repulles et al. 202X, XXX, DOI XXX
-Raw read data sequenced for this study is available under the ncbi bioproject XXX. Additional data was download from BioProjects PRJNA308754, PRJNA833307 and PRJEB8011.
+Raw read data sequenced for this study is available under the ncbi bioproject PRJNA1534588. Additional data was download from BioProjects PRJNA308754, PRJNA833307 and PRJEB8011.
 
 1. Folder bash-scripts contains scripts used for site calling and filtering, introgression analysis based on D statistics and Twisst2, genome-wide analysis with pixy and Fst analysis using Vcftools.
 2. Folder fsc2-spp-pairs contains scripts and input files used for fastsimcoal2 analyses done with sppecies pairs.
