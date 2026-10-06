@@ -1,5 +1,5 @@
 ## Evolutionary history and widespread genomic introgression in the Atlantic Forest endemic Heliconius besckei
-This repository contains scripts used in the study Repulles et al. 202X, XXX, DOI XXX
+This repository contains scripts used in the study “Contrasting signatures of interspecific gene flow in the Atlantic Forest endemic butterfly Heliconius besckei”.
 Raw read data sequenced for this study is available under the ncbi bioproject PRJNA1534588. Additional data was download from BioProjects PRJNA308754, PRJNA833307 and PRJEB8011.
 
 1. Folder bash-scripts contains scripts used for site calling and filtering, introgression analysis based on D statistics and Twisst2, genome-wide analysis with pixy and Fst analysis using Vcftools.
